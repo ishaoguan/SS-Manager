@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="status.css" media="screen" type="text/css" />
+        <title>
+            ShadowSock Status
+        </title>
+    </head>
+    <body>
+        <h1 id="header">
+            ShadowSocks Status
+        </h1>
+        <div id="status_tag"></div>
+        <button id="login_button" onclick="window.location.href='./login.html'">
+            Login
+        </button>
+        <script type="text/javascript">
+            if (document.getElementById('status_tag').innerHTML=="Running") {
+            document.getElementById('status_tag').className="running";
+            } else {
+            document.getElementById('status_tag').className="stopped";
+            }
+        </script>
+        <script>
+            var t1 = window.setInterval(ajax_current_status,5000);
+            function ajax_current_status(){
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function() {
+                    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                        document.getElementById("status_tag").innerHTML = xmlhttp.responseText;
+                        if (document.getElementById('status_tag').innerHTML=="Running") {
+                            document.getElementById('status_tag').className="running";
+                        } else {
+                            document.getElementById('status_tag').className="stopped";
+                        }
+                    }
+                }
+                xmlhttp.open("GET", "./admin_index/ss_controller.php?action=if_running", true);
+                xmlhttp.send();
+            }
+            ajax_current_status();
+        </script>
+    </body>
+</html>
