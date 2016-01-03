@@ -53,12 +53,15 @@ body {
 
 #login h1 {
     background: #3399cc;
-    padding: 20px 0;
-    font-size: 140%;
+    padding: 10px 0;
+    font-size: 110%;
     font-weight: 300;
     text-align: center;
     color: #fff;
+    margin-bottom: 15px;
 }
+
+
 
 form {
     background: #f0f0f0;

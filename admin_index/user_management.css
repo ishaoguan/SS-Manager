@@ -1,0 +1,26 @@
+.mycontainer {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 75px;
+}
+.fn_btn{
+	display: inline;
+	margin-top: 10px;
+}
+.ch_btn{
+	display: inline;
+	margin-top: 10px;
+}
+.new_btn{
+	display: inline;
+	margin-top: 10px;
+}
+#ch_id{
+	width: 60px;
+}
+#ch_value{
+	width: 250px;
+}
+#ch_submit{
+	margin-top: 10px;
+}

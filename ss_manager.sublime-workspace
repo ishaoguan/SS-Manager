@@ -1,0 +1,469 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sha",
+				"shadowsocks"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"output",
+				"outputs2"
+			],
+			[
+				"out",
+				"outputs1"
+			],
+			[
+				"pid_",
+				"pid_file_name"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"borde",
+				"border-width"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"conf",
+				"config_textarea"
+			],
+			[
+				"fo",
+				"form	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "admin_index/config.php",
+			"settings":
+			{
+				"buffer_size": 150,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "admin_index/ss_controller.php",
+			"settings":
+			{
+				"buffer_size": 1858,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 247.0,
+		"last_filter": "format",
+		"selected_items":
+		[
+			[
+				"format",
+				"CodeFormatter: Format as CSS Syntax"
+			],
+			[
+				"for",
+				"CodeFormatter: Format as PHP Syntax"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 234.0,
+		"history":
+		[
+			"code_formatter",
+			"code_format",
+			"code_formatter",
+			"code_format"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/NK/Desktop/SS-Manager",
+		"/C/Users/NK/Desktop/SS-Manager/admin_index"
+	],
+	"file_history":
+	[
+		"/E/useful program/vps/ssh_key_private.ppk",
+		"/E/useful program/vps/ssh_key_private(rsync)",
+		"/E/useful program/vps/ssh_key_public",
+		"/E/useful program/vps/ssh_key_private - Copy.ppk",
+		"/C/Users/NK/Desktop/SS-Manager/status.css",
+		"/C/Users/NK/Desktop/SS-Manager/ss_manager.sublime-project",
+		"/C/Users/NK/Desktop/www/ss/admin_index/admin_index.php",
+		"/C/Users/NK/Desktop/www/ss/admin_index/admin_auth.php",
+		"/C/Users/NK/Desktop/www/ss_manager_config/ss_start.sh",
+		"/C/Users/NK/Desktop/www/ss/admin_index/config.php",
+		"/C/Users/NK/Desktop/www/ss_manager_config/ss_stop.sh",
+		"/C/Users/NK/Desktop/www/ss/admin_index/ss_controller.php",
+		"/C/Users/NK/Desktop/www/ss/admin_index/ajax_refresh_log.php",
+		"/C/Users/NK/Desktop/www/ss/admin_index/ajax_ss_if_running.php",
+		"/C/Users/NK/Desktop/www/ss_manager_config/ss_if_running.sh",
+		"/C/Users/NK/Desktop/www/ss/status.html",
+		"/C/Users/NK/Desktop/www/ss/index.php",
+		"/E/音乐/帕海贝尔卡农大全.cue",
+		"/C/Users/NK/Desktop/www/index/index.css",
+		"/C/Users/NK/Desktop/www/ss/admin_index/admin_index.css",
+		"/C/Users/NK/Desktop/www/ss/index.css",
+		"/C/Users/NK/Desktop/www/ss/login.css",
+		"/C/Users/NK/AppData/Roaming/Sublime Text 3/Packages/sublimetext-codeformatter-master/codeformatter/lib/phpbeautifier/Log.php",
+		"/C/Users/NK/AppData/Roaming/Sublime Text 3/Packages/sublimetext-codeformatter-master/codeformatter/lib/phpbeautifier/Log/error_log.php",
+		"/C/Users/NK/AppData/Roaming/Sublime Text 3/Packages/sublimetext-codeformatter-master/codeformatter/phpbeautifier/__init__.py",
+		"/C/Users/NK/AppData/Roaming/Sublime Text 3/Packages/sublimetext-codeformatter-master/codeformatter/phpformatter.py",
+		"/C/Users/NK/AppData/Roaming/Sublime Text 3/Packages/User/CodeFormatter.sublime-settings",
+		"/C/Users/NK/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/CodeFormatter.sublime-settings",
+		"/C/Users/NK/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/NK/AppData/Roaming/Sublime Text 3/Packages/User/PHP.sublime-settings",
+		"/C/Users/NK/Desktop/ShadowsocksManager/ss/admin_index/admin_auth.php",
+		"/C/Users/NK/Desktop/info1/index.css",
+		"/C/Users/NK/Desktop/info1/index.html",
+		"/E/eclipse_workspace/HelloWorld/src/hello.java",
+		"/C/Users/NK/Desktop/clicker_mistakes",
+		"/C/Users/NK/Desktop/Clickers - Copy.txt",
+		"/C/Users/NK/Desktop/Clickers.txt",
+		"/C/Users/NK/Desktop/ss - Copy/admin_index.php",
+		"/C/Users/NK/Desktop/ss - Copy/ss_sublime.sublime-project",
+		"/C/Users/NK/Desktop/ss - Copy/admin_auth.php",
+		"/C/Users/NK/Desktop/ss - Copy/index.css",
+		"/C/Users/NK/Desktop/ss - Copy/admin_index.css",
+		"/C/Users/NK/Desktop/ss - Copy/ajax_refresh_log.php",
+		"/C/Users/NK/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/NK/AppData/Roaming/Sublime Text 3/Local/Session.sublime_session",
+		"/C/Users/NK/Desktop/ss - Copy/index.php",
+		"/C/Users/NK/Desktop/test_project/main.py",
+		"/C/Users/NK/Desktop/test_project/test.sublime-project",
+		"/C/Users/NK/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/NK/Desktop/test.bat",
+		"/C/Users/NK/Desktop/idlist",
+		"/C/Users/NK/Desktop/ws8ifpwdState",
+		"/C/Users/NK/Desktop/index/index.html",
+		"/C/Users/NK/Desktop/index/index.css",
+		"/C/Users/NK/Desktop/php_reverse.txt",
+		"/C/Users/NK/Desktop/php-reverse.php",
+		"/C/Users/NK/Desktop/access.log",
+		"/C/Users/NK/Desktop/wx_sample.php",
+		"/C/Users/NK/Desktop/ss/global_variables.php",
+		"/C/Users/NK/Desktop/ss/ss_update_config.php",
+		"/C/Users/NK/Desktop/ss/ss_controller.php",
+		"/C/Users/NK/Desktop/ss/ajax_ss_if_running.php",
+		"/C/Users/NK/Desktop/ss/global_varibles.php",
+		"/C/Users/NK/Desktop/ss/ss_restart.php",
+		"/C/Users/NK/Desktop/ss/ss_start.php",
+		"/C/Users/NK/Desktop/ss/ss_stop.php",
+		"/C/Users/NK/Desktop/ss/admin_auth.php",
+		"/C/Users/NK/Desktop/ShadowManger - Copy/html/index.html",
+		"/C/Users/NK/Desktop/ShadowManger - Copy/html/index.css",
+		"/C/Users/NK/Desktop/ShadowManger/html/index.html",
+		"/C/Users/NK/Desktop/ShadowManger/html/index.css",
+		"/C/Users/NK/Desktop/ShadowManger/html/login.css",
+		"/C/Users/NK/Desktop/ShadowManger/html/login.html",
+		"/C/Users/NK/Desktop/ShadowManger/html/css/style.css",
+		"/C/Users/NK/Desktop/ShadowManger/html/js/index.js",
+		"/C/Users/NK/Desktop/ShadowManger/html/signin.css",
+		"/C/Users/NK/Desktop/ShadowManger/html/signin.html",
+		"/E/Python_workspace/hackthis.py",
+		"/C/Users/NK/Desktop/b4.jpg",
+		"/C/Users/NK/Downloads/malloc",
+		"/C/Users/NK/Downloads/s0ngsariTrick"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".pid",
+			"php",
+			"=\"\">",
+			"jumbo",
+			"jumbotron",
+			"spectrum",
+			"\n- When Pluto is close to aph",
+			"test_",
+			"*",
+			"\\r\\n",
+			";\n",
+			"<!",
+			"xor",
+			"?>",
+			"$0",
+			"!0",
+			"#animation",
+			".hoja",
+			"Open Sans",
+			"ss_stop",
+			"title",
+			"  ",
+			"\n  ",
+			"font",
+			"open",
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"-",
+			" ",
+			"fxor",
+			"$a00",
+			"a0",
+			".running",
+			"#animation"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "admin_index/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "admin_index/ss_controller.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								520,
+								524
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ss_manager.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\NK\\Desktop\\ws8hack\\id&pwd"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 588.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"log_refresh"
+			],
+			[
+				"swi",
+				"swichers"
+			],
+			[
+				"curr",
+				"current_config"
+			]
+		],
+		"width": 588.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

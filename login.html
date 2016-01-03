@@ -15,12 +15,46 @@
 
 <div id="login">
   <div id="triangle"></div>
-  <h1>Log in</h1>
-  <form action="./admin_index/login_auth.php" method="post">
-    <input type="username" name="username" placeholder="User name" />
-    <input type="password" name="password" placeholder="Password" />
-    <input type="submit" value="Log in" />
-  </form>
+  <h1>ヽ(✿ﾟ▽ﾟ)ノ</h1>
+    <input type="username" id="username" placeholder="User name" />
+    <input type="password" id="password" placeholder="Password" />
+    <input type="submit" value="Log in" onclick="login_check();" />
+
+    <script type="text/javascript">
+    function login_check(){
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          if (xmlhttp.responseText == "success_admin") {
+            success_admin();
+          } else if (xmlhttp.responseText == "success_user") {
+            success_user();
+          } else {
+            fail();
+          }
+        }
+      }
+      xmlhttp.open("POST", "login_auth.php", true);
+      xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+      var username=document.getElementById("username").value;
+      var password=document.getElementById("password").value;
+      xmlhttp.send("username=" + username + "&password=" + password);
+    }
+
+    function success_admin(){
+      window.location.href='./admin_index/admin_index.php'; 
+    }
+
+    function success_user(){
+      window.location.href='./user_index/index.php'; 
+    }
+
+    function fail(){
+      alert("Login failed!");
+    }
+
+    </script>
+
 </div>
 
 
