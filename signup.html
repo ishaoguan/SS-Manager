@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User Center</title>
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="signup.css">
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+      <div class="form-signin">
+        <h2 class="form-signin-heading">Sign up</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="email" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="password" class="form-control" placeholder="Password">
+        <input type="text" id="token" class="form-control" placeholder="Token">
+        <button class="btn btn-lg btn-default btn-block" onclick="get_token();">Get the token</button>
+        <button class="btn btn-lg btn-primary btn-block" onclick="signup();">Sign up</button>
+      </div>
+    </div> <!-- /container -->
+    <script type="text/javascript">
+    function get_token(){
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            if (xmlhttp.responseText == "token sending success") {
+            alert("Your token has been send to your Email! Please check your Eamil.");
+          } else if (xmlhttp.responseText == "token sending fail") {
+            alert("Token sending fail!");
+          } else if (xmlhttp.responseText == "email overlap") {
+            alert("Your Email has been used!");
+          } else if (xmlhttp.responseText == "invalid email") {
+            alert("The Email you input is invalid!");
+          } else {
+            alert(xmlhttp.responseText);
+          }
+        }
+      }
+      xmlhttp.open("POST", "signup.php", false);
+      xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+      var email=document.getElementById("email").value;
+      xmlhttp.send("email=" + email + "&action=get_token");
+    }
+    function signup(){
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            if (xmlhttp.responseText == "token auth success") {
+            alert("Sign up succeed! Now we will go to the login page...");
+            window.location.href='./login.html';
+          } else if (xmlhttp.responseText == "token auth fail") {
+            alert("Token auth fail!");
+          } else if (xmlhttp.responseText == "email overlap") {
+            alert("Your Email has been used!");
+          } else if (xmlhttp.responseText == "invalid email") {
+            alert("The Email you input is invalid!");
+          } else if (xmlhttp.responseText == "security check fail") {
+            alert("The password or token should not include special characters");
+          } else {
+            alert(xmlhttp.responseText);
+          }
+        }
+      }
+      xmlhttp.open("POST", "signup.php", false);
+      xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+      var email=document.getElementById("email").value;
+      var password=document.getElementById("password").value;
+      var token=document.getElementById("token").value;
+      xmlhttp.send("email=" + email + "&password=" + password + "&token=" + token +"&action=sign_up");
+    }
+    </script>
+</body>
+</html>

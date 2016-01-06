@@ -22,7 +22,7 @@ html, body {
     outline: 0;
     position: absolute;
     top: 85%;
-    left: 50%;
+    left: 40%;
     height: 50px;
     width: 150px;
     margin-left: -75px;
@@ -35,6 +35,28 @@ html, body {
 }
 
 #login_button:hover {
+    background: #2288bb;
+}
+#signup_button {
+    font-family: myFont;
+    background: #3399cc;
+    border: 0;
+    outline: 0;
+    position: absolute;
+    top: 85%;
+    left: 60%;
+    height: 50px;
+    width: 150px;
+    margin-left: -75px;
+    font-size: 100%;
+    color: #fff;
+    cursor: pointer;
+    transition: background .3s;
+    -webkit-transition: background .3s;
+    -webkit-border-radius: 15px;
+}
+
+#signup_button:hover {
     background: #2288bb;
 }
 

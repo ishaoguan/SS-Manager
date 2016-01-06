@@ -12,7 +12,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>User Management</title>
+<title>Admin Home</title>
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="admin_index.css">
 <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
@@ -31,11 +31,11 @@
             	<span class="icon-bar"></span>
             	<span class="icon-bar"></span>
           	</button>
-          	<span class="navbar-brand" href="#">SS-Manager</span>
+          	<span class="navbar-brand" onclick="location.reload();">SS-Manager</span>
         </div>
 		<div id="navbar" class="collapse navbar-collapse">
         	<ul class="nav navbar-nav">
-          		<li class="active"><a href="#">Home</a></li>
+          		<li class="active"><a onclick="location.reload();">Home</a></li>
             	<li><a href="user_management.php">User Management</a></li>
         	</ul>
           <ul class="nav navbar-nav navbar-right">

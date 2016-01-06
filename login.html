@@ -17,8 +17,8 @@
   <div id="triangle"></div>
   <h1>ヽ(✿ﾟ▽ﾟ)ノ</h1>
     <input type="username" id="username" placeholder="User name" />
-    <input type="password" id="password" placeholder="Password" />
-    <input type="submit" value="Log in" onclick="login_check();" />
+    <input type="password" id="password" placeholder="Password" onkeydown = "if (event.keyCode == 13) document.getElementById('submit_btn').click()"/>
+    <input type="submit" id="submit_btn" value="Log in" onclick="login_check();" />
 
     <script type="text/javascript">
     function login_check(){
@@ -29,6 +29,8 @@
             success_admin();
           } else if (xmlhttp.responseText == "success_user") {
             success_user();
+          } else if (xmlhttp.responseText == "security check fail") {
+            alert("Your email and password should not include special characters!");
           } else {
             fail();
           }

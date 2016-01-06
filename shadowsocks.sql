@@ -15,6 +15,8 @@ CREATE TABLE `user` (
   `type` tinyint(4) NOT NULL DEFAULT '1',
   `last_get_gift_time` int(11) NOT NULL DEFAULT '0',
   `last_rest_pass_time` int(11) NOT NULL DEFAULT '0',
+  `activated` tinyint(4) NOT NULL DEFAULT '1',
+  `token` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`,`port`)
 ) ENGINE=InnoDB AUTO_INCREMENT=415 DEFAULT CHARSET=utf8;
 

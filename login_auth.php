@@ -1,9 +1,6 @@
 <?php
 require "config.php";
-
-function checkemail($str){
-    return (preg_match('/^[_.0-9a-z-a-z-]+@([0-9a-z][0-9a-z-]+.)+[a-z]{2,4}$/',$str))?true:false;
-}
+require "./src/security.php";
 
 function echoandexit($str){
 	echo $str;
@@ -12,8 +9,8 @@ function echoandexit($str){
 }
 
 if ( (!empty($_POST["username"])) and (!empty($_POST["password"])) ) {
-	$email=$_POST["username"];
-	$password=$_POST["password"];
+	$email		=	security_filter($_POST["username"]);
+	$password 	=	security_filter($_POST["password"]);
 	//$password=MD5($password.'ssmanager');
 
 	if ($email=="admin") {
@@ -27,11 +24,7 @@ if ( (!empty($_POST["username"])) and (!empty($_POST["password"])) ) {
 	}
 	else
 	{
-		if (!checkemail($email)) {
-			echoandexit("illegal email!");
-		}
-
-		$count=count($DB->query("SELECT * FROM user WHERE email=? and pass=?", array($email,$password)));
+		$count=count($DB->query("SELECT * FROM user WHERE email=? and pass=? and activated='1' ", array($email,$password)));
     	
     	if($count==1){
         	session_start();

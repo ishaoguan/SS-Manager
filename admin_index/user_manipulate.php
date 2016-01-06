@@ -6,17 +6,9 @@ if($user!="admin") {
 	die();
 }
 require './../config.php';
+require './../src/security.php';
 
 $action = @$_POST['action'];
-/*
-$id 	= @$_POST['id'];
-$value 	= @$_POST['value'];
-$new_email		= @$_POST['new_email'];
-$new_pass 		= @$_POST['new_pass'];
-$new_passwd 	= @$_POST['new_passwd'];
-$new_port 		= @$_POST['new_port'];
-$new_transfer 	= @$_POST['new_transfer'];
-*/
 
 if ($action=='show_table') 				show_table();
 if ($action=='delete_row') 				delete_row();
@@ -36,7 +28,7 @@ function delete_row(){
 
 function change($action){
 	$id = (int) @$_POST['id'];
-	$value = @$_POST['value'];
+	$value = security_filter(@$_POST['value']);
 
 	if ($action=='change_email') {
 		$GLOBALS['DB']->query("UPDATE user SET email = ? WHERE id = ?",array($value,$id));
@@ -65,11 +57,11 @@ function change($action){
 }
 
 function new_row(){
-	$new_email		= @$_POST['new_email'];
-	$new_pass 		= @$_POST['new_pass'];
-	$new_passwd 	= @$_POST['new_passwd'];
-	$new_port		= @$_POST['new_port'];
-	$new_transfer 	= @$_POST['new_transfer'];
+	$new_email		= security_filter(@$_POST['new_email']);
+	$new_pass 		= security_filter(@$_POST['new_pass']);
+	$new_passwd 	= security_filter(@$_POST['new_passwd']);
+	$new_port		= security_filter(@$_POST['new_port']);
+	$new_transfer 	= security_filter(@$_POST['new_transfer']);
 	$new_transfer	= ((int) $new_transfer)*1024*1024;
 	$GLOBALS['DB']->query("INSERT INTO user (email,pass,passwd,port,transfer_enable) VALUES (?,?,?,?,?)",array($new_email,$new_pass,$new_passwd,$new_port,$new_transfer));
 }

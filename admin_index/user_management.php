@@ -32,12 +32,12 @@ if($user!="admin") {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <span class="navbar-brand" href="#">SS-Manager</span>
+            <span class="navbar-brand" onclick="location.reload();">SS-Manager</span>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li><a href="admin_index.php">Home</a></li>
-                <li class="active"><a href="#">User Management</a></li>
+                <li class="active"><a onclick="location.reload();">User Management</a></li>
             </ul>
           <ul class="nav navbar-nav navbar-right">
               <li><a href="./sign_out.php">Log out</a></li>
@@ -72,8 +72,8 @@ if($user!="admin") {
           </ul>
         </div>
             
-        <input class="form-control ch_btn" id="ch_id" type="text" placeholder="Id">
-        <input class="form-control ch_btn" id="ch_value" type="text" placeholder="Value">
+        <input class="form-control ch_btn" id="ch_id" type="text" placeholder="Id" onkeydown = "if (event.keyCode == 13) document.getElementById('ch_submit').click()">
+        <input class="form-control ch_btn" id="ch_value" type="text" placeholder="Value" onkeydown = "if (event.keyCode == 13) document.getElementById('ch_submit').click()">
         <button type="button" class="btn btn-default ch_btn" id="ch_submit" onclick="submit_change();exit_ch_mode();">Submit</button>
 
         <button type="button" class="btn btn-default new_btn" onclick="submit_new();exit_new_mode();">Submit</button>
