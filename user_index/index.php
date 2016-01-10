@@ -32,10 +32,10 @@ $enable=$row['enable'];
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>User Center</title>
-<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
-<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="index.css">
+<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -45,7 +45,7 @@ $enable=$row['enable'];
         <nav>
           <ul class="nav nav-pills pull-right">
             <li><a href="help.html" target="_blank">使用帮助</a></li>
-            <li><a href="./gift.html" target="_blank">输入礼物码</a></li>
+            <li><a href="./giftcode.php" target="_blank">输入礼物码</a></li>
             <li>
             <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false"><?php echo $email; ?><span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">

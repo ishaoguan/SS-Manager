@@ -13,10 +13,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Admin Home</title>
-<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="admin_index.css">
-<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -37,6 +37,7 @@
         	<ul class="nav navbar-nav">
           		<li class="active"><a onclick="location.reload();">Home</a></li>
             	<li><a href="user_management.php">User Management</a></li>
+              <li><a href="giftcode_management.php">Gift Code</a></li>
         	</ul>
           <ul class="nav navbar-nav navbar-right">
               <li><a href="./sign_out.php">Log out</a></li>

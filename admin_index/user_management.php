@@ -7,17 +7,16 @@ if($user!="admin") {
 }
 ?>
 
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>User Management</title>
-<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="user_management.css">
-<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -38,6 +37,7 @@ if($user!="admin") {
             <ul class="nav navbar-nav">
                 <li><a href="admin_index.php">Home</a></li>
                 <li class="active"><a onclick="location.reload();">User Management</a></li>
+                <li><a href="giftcode_management.php">Gift Code</a></li>
             </ul>
           <ul class="nav navbar-nav navbar-right">
               <li><a href="./sign_out.php">Log out</a></li>

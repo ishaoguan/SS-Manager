@@ -1,0 +1,23 @@
+.mycontainer {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 75px;
+}
+.fn_btn{
+	display: inline;
+	margin-top: 10px;
+}
+.new_btn{
+	display: inline;
+	margin-top: 10px;
+}
+.del_btn{
+	display: inline;
+	margin-top: 10px;
+}
+#new_num{
+	width: 120px;
+}
+#del_id{
+	width: 120px;
+}

@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"show",
+				"show_table"
+			],
+			[
+				"old",
+				"old_password"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"flow",
+				"flow_alert"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"secu",
+				"security_filter"
+			],
+			[
+				"acti",
+				"activated"
+			],
+			[
+				"email",
+				"email_overlap"
+			],
+			[
+				"sign",
+				"sign_up"
+			],
+			[
 				"get",
 				"get	Get Elements"
 			],
@@ -58,10 +94,6 @@
 			[
 				"hide",
 				"hide_fn_btn"
-			],
-			[
-				"show",
-				"show_ch_btn"
 			],
 			[
 				"margin",
@@ -164,26 +196,18 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/NK/Desktop/htmltest/index.html",
+			"file": "/C/Users/NK/Desktop/htmltest/giftcode.css",
 			"settings":
 			{
-				"buffer_size": 992,
+				"buffer_size": 636,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "shadowsocks.sql",
+			"file": "/C/Users/NK/Desktop/htmltest/giftcode.html",
 			"settings":
 			{
-				"buffer_size": 982,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/NK/Desktop/htmltest/index.css",
-			"settings":
-			{
-				"buffer_size": 466,
+				"buffer_size": 1113,
 				"line_ending": "Windows"
 			}
 		}
@@ -234,34 +258,44 @@
 	[
 		"/C/Users/NK/Desktop/SS-Manager",
 		"/C/Users/NK/Desktop/SS-Manager/admin_index",
-		"/C/Users/NK/Desktop/SS-Manager/src",
 		"/C/Users/NK/Desktop/SS-Manager/user_index"
 	],
 	"file_history":
 	[
-		"/C/Users/NK/Desktop/htmltest/js/walkway.min.js",
+		"/C/Users/NK/Desktop/SS-Manager/shadowsocks.sql",
+		"/C/Users/NK/Desktop/SS-Manager/admin_index/giftcode_management.php",
+		"/C/Users/NK/Desktop/htmltest/index.html",
+		"/C/Users/NK/Desktop/SS-Manager/admin_index/giftcode_manipulate.php",
+		"/C/Users/NK/Desktop/SS-Manager/admin_index/user_manipulate.php",
+		"/C/Users/NK/Desktop/SS-Manager/admin_index/user_management.php",
+		"/C/Users/NK/Desktop/SS-Manager/admin_index/admin_index.php",
+		"/C/Users/NK/Desktop/htmltest/giftcode_control.css",
+		"/C/Users/NK/Desktop/htmltest/giftcode_control.html",
+		"/C/Users/NK/Desktop/SS-Manager/user_index/index.php",
+		"/C/Users/NK/Desktop/SS-Manager/config.php",
+		"/C/Users/NK/Desktop/SS-Manager/signup.html",
+		"/C/Users/NK/Desktop/SS-Manager/billboard/1/index.html",
+		"/C/Users/NK/Desktop/SS-Manager/user_index/ch_password.php",
+		"/C/Users/NK/Desktop/SS-Manager/signup.php",
+		"/C/Users/NK/Desktop/SS-Manager/user_index/ch_password_backend.php",
+		"/C/Users/NK/Desktop/SS-Manager/user_index/ch_password.css",
+		"/C/Users/NK/Desktop/SS-Manager/src/security.php",
+		"/C/Users/NK/Desktop/SS-Manager/login_auth.php",
+		"/C/Users/NK/Desktop/SS-Manager/login.html",
+		"/C/Users/NK/Desktop/SS-Manager/signup.css",
+		"/C/Users/NK/Desktop/SS-Manager/status.css",
+		"/C/Users/NK/Desktop/SS-Manager/status.html",
 		"/C/Users/NK/Desktop/htmltest/index.css",
+		"/C/Users/NK/Desktop/htmltest/js/walkway.min.js",
 		"/C/Users/NK/Desktop/htmltest/css/animate.min.css",
 		"/C/Users/NK/Desktop/htmltest/css/normalize.css",
 		"/C/Users/NK/Desktop/htmltest/css/default.css",
-		"/C/Users/NK/Desktop/SS-Manager/shadowsocks.sql",
-		"/C/Users/NK/Desktop/SS-Manager/signup.css",
-		"/C/Users/NK/Desktop/SS-Manager/signup.php",
-		"/C/Users/NK/Desktop/SS-Manager/signup.html",
-		"/C/Users/NK/Desktop/SS-Manager/login_auth.php",
-		"/C/Users/NK/Desktop/SS-Manager/status.html",
-		"/C/Users/NK/Desktop/SS-Manager/config.php",
 		"/C/cygwin64/home/NK/.ssh/known_hosts",
 		"/E/useful program/vps/ssh_key_private.ppk",
 		"/E/useful program/vps/ssh_key_private(rsync)",
 		"/E/useful program/vps/ssh_key_public",
 		"/C/Users/NK/Desktop/vps_backup/default.conf",
-		"/C/Users/NK/Desktop/SS-Manager/admin_index/user_manipulate.php",
-		"/C/Users/NK/Desktop/SS-Manager/admin_index/admin_index.php",
 		"/C/Users/NK/Desktop/SS-Manager/README.md",
-		"/C/Users/NK/Desktop/SS-Manager/user_index/index.php",
-		"/C/Users/NK/Desktop/SS-Manager/admin_index/user_management.php",
-		"/C/Users/NK/Desktop/SS-Manager/login.html",
 		"/C/Users/NK/Desktop/SS-Manager/admin_index/user_management.css",
 		"/C/Users/NK/Desktop/htmltest/user_management_test.css",
 		"/C/Users/NK/Desktop/htmltest/user_management_test.html",
@@ -282,7 +316,6 @@
 		"/C/Users/NK/Desktop/SS-Manager/login.css",
 		"/C/Users/NK/Desktop/SS-Manager/src/PDO.Log.class.php",
 		"/E/useful program/vps/ssh_key_private - Copy.ppk",
-		"/C/Users/NK/Desktop/SS-Manager/status.css",
 		"/C/Users/NK/Desktop/SS-Manager/ss_manager.sublime-project",
 		"/C/Users/NK/Desktop/www/ss/admin_index/admin_index.php",
 		"/C/Users/NK/Desktop/www/ss/admin_index/admin_auth.php",
@@ -356,9 +389,7 @@
 		"/C/Users/NK/Desktop/ShadowManger/html/signin.css",
 		"/C/Users/NK/Desktop/ShadowManger/html/signin.html",
 		"/E/Python_workspace/hackthis.py",
-		"/C/Users/NK/Desktop/b4.jpg",
-		"/C/Users/NK/Downloads/malloc",
-		"/C/Users/NK/Downloads/s0ngsariTrick"
+		"/C/Users/NK/Desktop/b4.jpg"
 	],
 	"find":
 	{
@@ -376,6 +407,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"giftcode_management",
+			"smtp_user_mail",
 			"7",
 			"login",
 			"button",
@@ -444,93 +477,67 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/NK/Desktop/htmltest/index.html",
+					"file": "/C/Users/NK/Desktop/htmltest/giftcode.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 992,
+						"buffer_size": 636,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								952,
-								952
+								613,
+								613
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "shadowsocks.sql",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 982,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SQL/SQL.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": -0.0,
+						"translation.x": -0.0,
+						"translation.y": 399.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/C/Users/NK/Desktop/htmltest/index.css",
+					"buffer": 1,
+					"file": "/C/Users/NK/Desktop/htmltest/giftcode.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 466,
+						"buffer_size": 1113,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								175,
-								175
+								72,
+								72
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 120.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -629,7 +636,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 272.0,
+	"side_bar_width": 281.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

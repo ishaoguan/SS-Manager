@@ -51,7 +51,7 @@ function send_token(){
 	$token=generate_token();
 	$mail->Body 	= "感谢您在我站注册了新帐号。<br/><br/>你的验证码为".$token; //邮件主体内容 
 	if(!$mail->Send()) { 
-  		//echo "token sending fail:" . $mail->ErrorInfo;
+  		echo "token sending fail:" . $mail->ErrorInfo;
   		echo "token sending fail"; 
 	} else { 
   		echo "token sending success"; 

@@ -15,7 +15,7 @@ $smtp_server_port	=	25;
 $smtp_user_mail		=	"";
 $smtp_user_pass 	=	"";
 
-define('DBHost', 'localhost');
+define('DBHost', '');
 define('DBName', '');
 define('DBUser', '');
 define('DBPassword', '');
